@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(photos/marvel\ background\ v3.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    background-attachment: fixed;
+    
+}
+.navbar {
+    display: flex;
+    height: 12%;
+    align-items: center;
+}
+.navbar2 ul li:hover{
+    transform: translateX(-10px)
+}
+.logo {
+    width: 150px;
+    cursor: pointer;
+    padding: 30px 30px;
+    
+}
+.navbar2{
+    flex: 1;
+    text-align: right;
+    margin-right: 30px;
+    box-sizing: border-box;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: lighter;
+    text-shadow: 2px 1px 1px red;
+    font-size: 20px;
+}
+.navbar2 ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 100px;
+    transition: transform 0.5s;
+
+}
+.navbar2 ul li a {
+    text-decoration: none;
+    color: white;
+    
+}
+.main-navbar {
+    display: flex;
+    padding-top: 30px;
+    height: 12%;
+    align-items: center;
+    font-family: 'Abril Fatface', cursive;
+    text-shadow: 2px 1px 1px red;
+    transition: transform 0.5s;
+    padding-left: 20px;
+    
+}
+.navbar3{
+    flex: 1;
+    text-align: center;
+    margin-right: 250px;
+    box-sizing: border-box;
+    margin-bottom: -30px;
+}
+.navbar3 ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 100px;
+    transition: transform 0.5s;
+    
+}
+.navbar3 ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    
+}
+.main-navbar ul li:hover {
+    transform: translateX(-10px);
+}
+.row {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 40px;
+    height: 88%;
+    align-items: center;
+    font-family: 'Abril Fatface', cursive;
+    text-shadow: 2px 1px 1px red;
+}
+.row2 {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 40px;
+    height: 88%;
+    align-items: center;
+    font-family: 'Abril Fatface', cursive;
+    text-shadow: 2px 1px 1px red;
+}
+.row3 {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 40px;
+    height: 88%;
+    align-items: center;
+    font-family: 'Abril Fatface', cursive;
+    text-shadow: 2px 1px 1px red;
+}
+.col {
+    flex-basis: 50%;
+}
+.col2 {
+    flex-basis: 50%;
+    padding-left: 85px;
+}
+.col3 {
+    flex-basis: 50%;
+    padding-left: 85px;
+}
+h1 {
+    color: white;
+    font-size: 50px;
+}
+p {
+    color: white;
+    font: 200px;
+    line-height: 15px;
+}
+button {
+    width: 180px;
+    color:red;
+    font-size: 15px;
+    padding: 15px 0;
+    background:whitesmoke;
+    border: 0;
+    border-radius: 30px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+button:hover {
+    transform: translateX(-5px)
+}
+.card {
+    width: 150px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+
+}
+.card1 {
+    background-image: url(/photos/avengers.jpg);
+}
+.card2 {
+    background-image: url(/photos/zangi\ pantera.jpg);
+}
+.card3 {
+    background-image: url(/photos/hulk.jpg);
+}
+.card4 {
+    background-image: url(/photos/spidey.jpg);
+}
+.card5 {
+    background-image: url(/photos/eternals\ movie.jpg);
+}
+.card6 {
+    background-image: url(/photos/download.jpg);
+}
+.card7 {
+    background-image: url(/photos/spidey02_ons_crd_01.jpg);
+}
+.card8 {
+    background-image: url(/photos/doc\ ock.jpg);
+}
+.card9 {
+    background-image: url(/photos/goblin.jpg);
+}
+.card:hover{
+    transform: translateY(-15px);
+}
+footer {
+    position: flex;
+    bottom: 0px;
+    width: 100%;
+    background: rgb(17, 2, 70);
+}
+.main-content {
+    display: flex;
+    
+}
+.main-content h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 20px;
+}
+.main-content .box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+    color: white;
+
+
+}
+.box h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+.box .content{
+    margin: 20px 0 0 0;
+}
+.left .content p{
+    text-align: justify;
+}
+.left .content .social{
+    margin: 20px 0 0;
+}
+.left .content .social a{
+    padding: 0 5px;
+}
+.social a{
+    color: white;
+}
+.left .content .social a span{
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0,3s;
+}
+.left .content .social a span:hover{
+    background: red;
+}
+
+/* Section */
+.content {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+}
+.content-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.content-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
